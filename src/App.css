@@ -1,11 +1,14 @@
+@import './Components/Estilo.css';
+
+
+*{
+  margin-left: 3px;
+  background-color: burlywood;
+}
 .App {
-  text-align: center;
+  text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +39,14 @@
     transform: rotate(360deg);
   }
 }
+
+ul{
+  list-style-type: circle;
+  margin: 8px;
+}
+
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
